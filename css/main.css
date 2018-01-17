@@ -131,7 +131,7 @@ header .search-area ul li{
 
 }
 
-/**Content Area**/
+/**Content Area Side Column **/
 
 #content-area{
 	background: #FAFAFA;
@@ -145,16 +145,26 @@ header .search-area ul li{
 	width: 35%;
 	margin: 0 2.5%;
 	height: 600px;
-	
+	max-width: 380px;
 }
 
 #content-area .widget-box{
+	padding: 15px;
 	background: white;
 	margin: 0 0 15px;
 	border-radius: 3px;
 	-webkit-box-shadow: 0px 2px 5px 0px rgba(138,138,138,1);
 	-moz-box-shadow: 0px 2px 5px 0px rgba(138,138,138,1);
 	box-shadow: 0px 2px 5px 0px rgba(138,138,138,1); 
+	overflow: auto;
+}
+
+#content-area .widget-box .head{
+
+}
+
+#content-area .widget-box .head .widget-icon-container{
+	display: inline-block;
 }
 #content-area .widget-box .head .widget-icon{
 	background: #E0E0E0;
@@ -162,7 +172,28 @@ header .search-area ul li{
 	width: 40px;
 	border-radius: 50%;
 	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+#content-area .widget-box .head .widget-icon .fa{
+	max-width: 50%;
+	font-size: 22px;
+}
+
+#content-area .widget-box .head .widget-title{
+	display: inline-block;
+	padding: 0 0 0 10px;
+	}
+
+#content-area .widget-box .body{
+	padding: 20px 0;
+}
+
+
+
+/**Content Area Main Content**/
+
 #content-area .main-area{
 	float: left;
 	width: 55%;
@@ -171,4 +202,4 @@ header .search-area ul li{
 	
 }
 
-/**Side Area**/
+
