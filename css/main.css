@@ -3,6 +3,8 @@
 }
 html{
 	font-family: sans-serif;
+	background-color: #FAFAFA;
+
 }
 a{
 	text-decoration: none;
@@ -139,12 +141,10 @@ header .search-area ul li{
 /**Content Area Side Column **/
 
 #content-area{
-	background: #FAFAFA;
-	overflow: auto;
+	background-color: #FAFAFA;
 	padding: 50px 0;
-
+	
 }
-
 #content-area .side-column{
 	float: left;
 	width: 35%;
@@ -152,7 +152,6 @@ header .search-area ul li{
 	height: 600px;
 	max-width: 380px;
 }
-
 #content-area .widget-box{
 	padding: 15px;
 	background: white;
@@ -163,11 +162,6 @@ header .search-area ul li{
 	box-shadow: 0px 2px 5px 0px rgba(138,138,138,1); 
 	overflow: auto;
 }
-
-#content-area .widget-box .head{
-
-}
-
 #content-area .widget-box .head .widget-icon-container{
 	display: inline-block;
 }
@@ -213,7 +207,6 @@ header .search-area ul li{
 	width: 55%;
 	margin:  0 2.5%;
 	height: 600px;
-	
 }
 
 #content-area .main-area .widget-box.submenu{
@@ -252,15 +245,14 @@ header .search-area ul li{
 	margin: 15px 0 0 0;
 	font-size: 14px;
 	text-transform: uppercase;
-
 }
-
-
 /**Content Area Main Content Post**/
 #content-area .main-area .widget-box.post{
 	overflow: auto;
 }
-
+#content-area .main-area .widget-box.post .head{
+	margin: 0 0 15px 0;
+}
 #content-area .main-area .widget-box.post .head .user-image-container{
 	width: 8%;
 	display: inline-block;
@@ -301,3 +293,127 @@ header .search-area ul li{
 	font-size: 12px;
 	color: #A8A8A8;
 }
+#content-area .main-area .widget-box.post .body{
+	padding: 0;
+}
+#content-area .main-area .widget-box.post .body .post-image img{
+	width: 100%;
+}
+
+#content-area .main-area .widget-box.post .body .interact-icons{
+	width: 100%;
+	padding: 15px 0;
+	color: #A8A8A8;
+}
+#content-area .main-area .widget-box.post .body .interact-icons .fa{
+	font-size: 20px;
+}
+#content-area .main-area .widget-box.post .body .interact-icons .fa-thumbs-up{
+	margin-right: 15px; 
+}
+
+#content-area .main-area .widget-box.post .body .interact-icons span{
+	float: right;
+	display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments{
+	background: #F2F2F2;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 15px;
+}
+#content-area .main-area .widget-box.post .body .post-comments .user-image{
+	width: 8%;
+	display: inline-block;
+	float: left;
+	overflow: auto;
+}
+#content-area .main-area .widget-box.post .body .post-comments::after{
+	content: " ";
+	clear: both;
+	display: table;
+}
+#content-area .main-area .widget-box.post .body .post-comments .user-image img{
+ 	border-radius: 50%;	
+ 	float: left;
+ 	width: 40px;
+ 	height: 40px;
+}
+#content-area .main-area .widget-box.post .body .post-comments .user-comments{
+	display: inline-block;
+	float: left;
+	width: 92%;
+	font-size: 14px;
+	padding-left: 5px;
+
+}
+#content-area .main-area .widget-box.post .body .post-comments .user-comments .user-info{
+	margin: 5px 0 10px 0;
+}	
+#content-area .main-area .widget-box.post .body .post-comments .user-comments .user-info .time{
+	color: #A8A8A8;
+	font-size: 11px;
+	float: right;
+}
+
+
+
+
+#content-area .main-area .widget-box.post .body .post-form{
+	padding: 15px 0 0 0;
+	
+}
+#content-area .main-area .widget-box.post .body .post-form .user-image{
+	width: 8%;
+	display: inline-block;
+	overflow: auto;
+	float: left;	
+}
+#content-area .main-area .widget-box.post .body .post-form::after{
+	content: " ";
+	clear: both;
+	display: table;
+}
+#content-area .main-area .widget-box.post .body .post-form .user-image img{
+ 	border-radius: 50%;	
+ 	float: left;
+ 	width: 40px;
+ 	height: 40px;
+}
+#content-area .main-area .widget-box.post .body .post-form .form-info{
+	display: inline-block;
+	float: left;
+	width: 92%;
+	font-size: 14px;
+	border-bottom: 1px solid #ABABAB;
+}
+#content-area .main-area .widget-box.post .body .post-form .form-info input{
+	width: 80%;
+	border: 0 solid #fff;
+	padding: 10px 0;
+	font-size: 14px;
+}
+#content-area .main-area .widget-box.post .body .post-form .form-info input:focus{
+	width: 80%;
+	border: 0 solid #fff;
+	outline: none;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons{
+	display: inline-block;
+	float: right;
+}
+#content-area .main-area .widget-box.post .body .post-form .form-info .icons .fa{
+	font-size: 20px;
+	margin: 0 15px 0 0;
+}
+
+
+
+
+
+
+
